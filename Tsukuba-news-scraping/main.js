@@ -40,5 +40,5 @@ function sendIFTTTWebHook(endpoint, contents, url, date) {
     "payload":JSON.stringify(message)
   };
 
-  UrlFetchApp.fetch("https://maker.ifttt.com/trigger/" + endpoint + "/with/key/cb1rIcEm5xwpHEwY26fYo7", options)
+  UrlFetchApp.fetch("https://maker.ifttt.com/trigger/" + endpoint + "/with/key/xxx", options)
 }
